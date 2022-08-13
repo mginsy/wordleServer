@@ -1,0 +1,37 @@
+{
+  "name": "makerswordle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mginsy/MakersWordle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mginsy/MakersWordle/issues"
+  },
+  "homepage": "https://github.com/mginsy/MakersWordle#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.10.0",
+    "body-parser": "^1.19.2",
+    "chromedriver": "^100.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase": "^9.6.7",
+    "firebase-admin": "^10.0.2",
+    "firestore": "^1.1.6",
+    "math": "^0.0.3",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
